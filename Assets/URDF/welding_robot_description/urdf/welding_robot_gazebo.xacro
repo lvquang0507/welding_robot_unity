@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="welding_robot">
+    <gazebo reference="world">
+        <static>true</static>
+    </gazebo>
+    <gazebo reference="base_link">
+        <material>
+            Gazebo/Orange
+        </material>
+    </gazebo>
+    <gazebo reference="link1">
+        <material>
+            Gazebo/Orange
+        </material>
+    </gazebo>
+    <gazebo reference="link2">
+        <material>
+            Gazebo/Orange
+        </material>
+    </gazebo>
+    <gazebo reference="link3">
+        <material>
+            Gazebo/Orange
+        </material>
+    </gazebo>
+    <gazebo reference="link4">
+        <material>
+            Gazebo/Orange
+        </material>
+    </gazebo>
+    <gazebo reference="link5">
+        <material>
+            Gazebo/Orange
+        </material>
+    </gazebo>
+    <gazebo reference="eef">
+        <material>
+            Gazebo/Red
+        </material>
+    </gazebo>
+</robot>

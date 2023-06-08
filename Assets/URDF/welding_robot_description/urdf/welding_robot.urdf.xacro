@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot xmlns:xacro="http://wiki.ros.org/xacro" name="welding_robot">
+
+    <xacro:include filename="$(find welding_robot_description)/urdf/common.xacro" />
+    <xacro:include filename="$(find welding_robot_description)/urdf/welding_robot_gazebo.xacro" />
+    <xacro:include filename="$(find welding_robot_description)/urdf/welding_robot_macro.xacro" />
+    <!-- <xacro:include
+        filename="$(find welding_robot_description)/ros2_control/welding_robot.ros2_control.xacro" /> -->
+</robot>

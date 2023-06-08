@@ -1,0 +1,1009 @@
+Unity Editor version:    2022.3.1f1 (f18e0c1b5784)
+Branch:                  2022.3/staging
+Build type:              Release
+Batch mode:              YES
+System name:             Linux
+Distro version:          #44~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Mon May 22 13:39:36 UTC 2
+Kernel version:          5.19.0-43-generic
+Architecture:            x86_64
+Available memory:        15413 MB
+Using pre-set license
+Pro License: YES
+Desktop is 1920 x 1080 @ 60 Hz
+Initialize udev device monitor.
+
+COMMAND LINE ARGUMENTS:
+Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker5
+-projectPath
+/home/lvquang/Desktop/test_unity
+-logFile
+Logs/AssetImportWorker5.log
+-srvPort
+37511
+Successfully changed project path to: /home/lvquang/Desktop/test_unity
+/home/lvquang/Desktop/test_unity
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [139736440296384] Host "[IP] 192.168.0.108 [Port] 0 [Flags] 2 [Guid] 3517813927 [EditorId] 3517813927 [Version] 1048832 [Id] LinuxEditor(16,192.168.0.108) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [139736440296384] Host "[IP] 192.168.0.108 [Port] 0 [Flags] 2 [Guid] 3517813927 [EditorId] 3517813927 [Version] 1048832 [Id] LinuxEditor(16,192.168.0.108) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 4.91 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.1f1 (f18e0c1b5784)
+[Subsystems] Discovering subsystems at path /home/lvquang/Unity/Hub/Editor/2022.3.1f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /home/lvquang/Desktop/test_unity/Assets
+GLX Extensions: GLX_ARB_context_flush_control GLX_ARB_create_context GLX_ARB_create_context_no_error GLX_ARB_create_context_profile GLX_ARB_create_context_robustness GLX_ARB_fbconfig_float GLX_ARB_framebuffer_sRGB GLX_ARB_get_proc_address GLX_ARB_multisample GLX_EXT_buffer_age GLX_EXT_create_context_es2_profile GLX_EXT_create_context_es_profile GLX_EXT_fbconfig_packed_float GLX_EXT_framebuffer_sRGB GLX_EXT_no_config_context GLX_EXT_swap_control GLX_EXT_swap_control_tear GLX_EXT_texture_from_pixmap GLX_EXT_visual_info GLX_EXT_visual_rating GLX_INTEL_swap_event GLX_MESA_copy_sub_buffer GLX_MESA_query_renderer GLX_MESA_swap_control GLX_OML_swap_method GLX_OML_sync_control GLX_SGIS_multisample GLX_SGIX_fbconfig GLX_SGIX_pbuffer GLX_SGIX_visual_select_group GLX_SGI_make_current_read GLX_SGI_swap_control GLX_SGI_video_sync 
+Renderer: RENOIR (renoir, LLVM 15.0.6, DRM 3.47, 5.19.0-43-generic)
+Vendor:   AMD
+Version:  4.6 (Core Profile) Mesa 22.2.5
+GLES:     0
+ GL_AMD_conservative_depth GL_AMD_depth_clamp_separate GL_AMD_draw_buffers_blend GL_AMD_framebuffer_multisample_advanced GL_AMD_gpu_shader_int64 GL_AMD_multi_draw_indirect GL_AMD_performance_monitor GL_AMD_pinned_memory GL_AMD_query_buffer_object GL_AMD_seamless_cubemap_per_texture GL_AMD_shader_stencil_export GL_AMD_shader_trinary_minmax GL_AMD_texture_texture4 GL_AMD_vertex_shader_layer GL_AMD_vertex_shader_viewport_index GL_ANGLE_texture_compression_dxt3 GL_ANGLE_texture_compression_dxt5 GL_ARB_ES2_compatibility GL_ARB_ES3_1_compatibility GL_ARB_ES3_2_compatibility GL_ARB_ES3_compatibility GL_ARB_arrays_of_arrays GL_ARB_base_instance GL_ARB_bindless_texture GL_ARB_blend_func_extended GL_ARB_buffer_storage GL_ARB_clear_buffer_object GL_ARB_clear_texture GL_ARB_clip_control GL_ARB_color_buffer_float GL_ARB_compressed_texture_pixel_storage GL_ARB_compute_shader GL_ARB_compute_variable_group_size GL_ARB_conditional_render_inverted GL_ARB_conservative_depth GL_ARB_copy_buffer GL_ARB_copy_image GL_ARB_cull_dist
+ance GL_ARB_debug_output GL_ARB_depth_buffer_float GL_ARB_depth_clamp GL_ARB_derivative_control GL_ARB_direct_state_access GL_ARB_draw_buffers GL_ARB_draw_buffers_blend GL_ARB_draw_elements_base_vertex GL_ARB_draw_indirect GL_ARB_draw_instanced GL_ARB_enhanced_layouts GL_ARB_explicit_attrib_location GL_ARB_explicit_uniform_location GL_ARB_fragment_coord_conventions GL_ARB_fragment_layer_viewport GL_ARB_fragment_shader GL_ARB_framebuffer_no_attachments GL_ARB_framebuffer_object GL_ARB_framebuffer_sRGB GL_ARB_get_program_binary GL_ARB_get_texture_sub_image GL_ARB_gl_spirv GL_ARB_gpu_shader5 GL_ARB_gpu_shader_fp64 GL_ARB_gpu_shader_int64 GL_ARB_half_float_pixel GL_ARB_half_float_vertex GL_ARB_indirect_parameters GL_ARB_instanced_arrays GL_ARB_internalformat_query GL_ARB_internalformat_query2 GL_ARB_invalidate_subdata GL_ARB_map_buffer_alignment GL_ARB_map_buffer_range GL_ARB_multi_bind GL_ARB_multi_draw_indirect GL_ARB_occlusion_query2 GL_ARB_parallel_shader_compile GL_ARB_pipeline_statistics_query GL_ARB_pixel
+_buffer_object GL_ARB_point_sprite GL_ARB_polygon_offset_clamp GL_ARB_program_interface_query GL_ARB_provoking_vertex GL_ARB_query_buffer_object GL_ARB_robust_buffer_access_behavior GL_ARB_robustness GL_ARB_sample_shading GL_ARB_sampler_objects GL_ARB_seamless_cube_map GL_ARB_seamless_cubemap_per_texture GL_ARB_separate_shader_objects GL_ARB_shader_atomic_counter_ops GL_ARB_shader_atomic_counters GL_ARB_shader_ballot GL_ARB_shader_bit_encoding GL_ARB_shader_clock GL_ARB_shader_draw_parameters GL_ARB_shader_group_vote GL_ARB_shader_image_load_store GL_ARB_shader_image_size GL_ARB_shader_objects GL_ARB_shader_precision GL_ARB_shader_stencil_export GL_ARB_shader_storage_buffer_object GL_ARB_shader_subroutine GL_ARB_shader_texture_image_samples GL_ARB_shader_texture_lod GL_ARB_shader_viewport_layer_array GL_ARB_shading_language_420pack GL_ARB_shading_language_include GL_ARB_shading_language_packing GL_ARB_sparse_buffer GL_ARB_sparse_texture GL_ARB_sparse_texture2 GL_ARB_sparse_texture_clamp GL_ARB_spirv_extensio
+ns GL_ARB_stencil_texturing GL_ARB_sync GL_ARB_tessellation_shader GL_ARB_texture_barrier GL_ARB_texture_buffer_object GL_ARB_texture_buffer_object_rgb32 GL_ARB_texture_buffer_range GL_ARB_texture_compression_bptc GL_ARB_texture_compression_rgtc GL_ARB_texture_cube_map_array GL_ARB_texture_filter_anisotropic GL_ARB_texture_float GL_ARB_texture_gather GL_ARB_texture_mirror_clamp_to_edge GL_ARB_texture_multisample GL_ARB_texture_non_power_of_two GL_ARB_texture_query_levels GL_ARB_texture_query_lod GL_ARB_texture_rectangle GL_ARB_texture_rg GL_ARB_texture_rgb10_a2ui GL_ARB_texture_stencil8 GL_ARB_texture_storage GL_ARB_texture_storage_multisample GL_ARB_texture_swizzle GL_ARB_texture_view GL_ARB_timer_query GL_ARB_transform_feedback2 GL_ARB_transform_feedback3 GL_ARB_transform_feedback_instanced GL_ARB_transform_feedback_overflow_query GL_ARB_uniform_buffer_object GL_ARB_vertex_array_bgra GL_ARB_vertex_array_object GL_ARB_vertex_attrib_64bit GL_ARB_vertex_attrib_binding GL_ARB_vertex_buffer_object GL_ARB_vertex
+_shader GL_ARB_vertex_type_10f_11f_11f_rev GL_ARB_vertex_type_2_10_10_10_rev GL_ARB_viewport_array GL_ATI_blend_equation_separate GL_ATI_meminfo GL_ATI_texture_float GL_ATI_texture_mirror_once GL_EXT_EGL_image_storage GL_EXT_EGL_sync GL_EXT_abgr GL_EXT_blend_equation_separate GL_EXT_demote_to_helper_invocation GL_EXT_depth_bounds_test GL_EXT_draw_buffers2 GL_EXT_draw_instanced GL_EXT_framebuffer_blit GL_EXT_framebuffer_multisample GL_EXT_framebuffer_multisample_blit_scaled GL_EXT_framebuffer_object GL_EXT_framebuffer_sRGB GL_EXT_memory_object GL_EXT_memory_object_fd GL_EXT_packed_depth_stencil GL_EXT_packed_float GL_EXT_pixel_buffer_object GL_EXT_polygon_offset_clamp GL_EXT_provoking_vertex GL_EXT_semaphore GL_EXT_semaphore_fd GL_EXT_shader_image_load_formatted GL_EXT_shader_image_load_store GL_EXT_shader_integer_mix GL_EXT_shader_samples_identical GL_EXT_texture_array GL_EXT_texture_compression_dxt1 GL_EXT_texture_compression_rgtc GL_EXT_texture_compression_s3tc GL_EXT_texture_filter_anisotropic GL_EXT_text
+ure_integer GL_EXT_texture_mirror_clamp GL_EXT_texture_sRGB GL_EXT_texture_sRGB_R8 GL_EXT_texture_sRGB_decode GL_EXT_texture_shadow_lod GL_EXT_texture_shared_exponent GL_EXT_texture_snorm GL_EXT_texture_swizzle GL_EXT_timer_query GL_EXT_transform_feedback GL_EXT_vertex_array_bgra GL_EXT_vertex_attrib_64bit GL_EXT_window_rectangles GL_IBM_multimode_draw_arrays GL_INTEL_blackhole_render GL_KHR_blend_equation_advanced GL_KHR_context_flush_control GL_KHR_debug GL_KHR_no_error GL_KHR_parallel_shader_compile GL_KHR_robust_buffer_access_behavior GL_KHR_robustness GL_KHR_texture_compression_astc_ldr GL_KHR_texture_compression_astc_sliced_3d GL_MESA_framebuffer_flip_y GL_MESA_pack_invert GL_MESA_shader_integer_functions GL_MESA_texture_signed_rgba GL_NVX_gpu_memory_info GL_NV_alpha_to_coverage_dither_control GL_NV_compute_shader_derivatives GL_NV_conditional_render GL_NV_copy_image GL_NV_depth_clamp GL_NV_packed_depth_stencil GL_NV_shader_atomic_int64 GL_NV_texture_barrier GL_NV_vdpau_interop GL_OES_EGL_image GL_S3_s
+3tc
+OPENGL LOG: Creating OpenGL 4.6 graphics device ; Context level  <OpenGL 4.5> ; Context handle -690690352
+Initialize mono
+Mono path[0] = '/home/lvquang/Unity/Hub/Editor/2022.3.1f1/Editor/Data/Managed'
+Mono path[1] = '/home/lvquang/Unity/Hub/Editor/2022.3.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-linux'
+Mono config path = '/home/lvquang/Unity/Hub/Editor/2022.3.1f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56836
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /home/lvquang/Unity/Hub/Editor/2022.3.1f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /home/lvquang/Unity/Hub/Editor/2022.3.1f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+Registered in 0.005661 seconds.
+- Loaded All Assemblies, in  0.329 seconds
+Native extension for LinuxStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.370 seconds
+Domain Reload Profiling: 698ms
+	BeginReloadAssembly (76ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (75ms)
+	LoadAllAssembliesAndSetupDomain (135ms)
+		LoadAssemblies (74ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (131ms)
+			TypeCache.Refresh (130ms)
+				TypeCache.ScanAssembly (119ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (371ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (292ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (14ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (4ms)
+			ProcessInitializeOnLoadAttributes (194ms)
+			ProcessInitializeOnLoadMethodAttributes (73ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /home/lvquang/Desktop/test_unity/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /home/lvquang/Desktop/test_unity/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.814 seconds
+Refreshing native plugins compatible for Editor in 3.22 ms, found 2 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.761 seconds
+Domain Reload Profiling: 1573ms
+	BeginReloadAssembly (153ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (36ms)
+	RebuildCommonClasses (48ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (68ms)
+	LoadAllAssembliesAndSetupDomain (531ms)
+		LoadAssemblies (259ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (329ms)
+			TypeCache.Refresh (305ms)
+				TypeCache.ScanAssembly (291ms)
+			ScanForSourceGeneratedMonoScriptInfo (19ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (762ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (551ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (69ms)
+			ProcessInitializeOnLoadAttributes (399ms)
+			ProcessInitializeOnLoadMethodAttributes (61ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
+Refreshing native plugins compatible for Editor in 3.20 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3405 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 39 unused Assets / (51.3 KB). Loaded Objects now: 3861.
+Memory consumption went from 118.2 MB to 118.1 MB.
+Total: 5.016071 ms (FindLiveObjects: 0.460604 ms CreateObjectMapping: 0.249124 ms MarkObjects: 4.082013 ms  DeleteObjects: 0.214343 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 2f0ff77a95e0ac474e3e8eeba4e2f7cb -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 21571.750102 seconds.
+  path: Assets/URDF/welding_robot_description/meshes/welding_robot/collision/link4_1.asset
+  artifactKey: Guid(d2d959132996619219d15dcb8b6f3280) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/URDF/welding_robot_description/meshes/welding_robot/collision/link4_1.asset using Guid(d2d959132996619219d15dcb8b6f3280) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '87b642b0ac767e1f035479ee6bf08972') in 0.159757 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.412845 seconds.
+  path: Assets/URDF/welding_robot_description/meshes/welding_robot/collision/eef_1.asset
+  artifactKey: Guid(fac422ac134fabe0593f598490392d83) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/URDF/welding_robot_description/meshes/welding_robot/collision/eef_1.asset using Guid(fac422ac134fabe0593f598490392d83) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2e05f6df4de81eb8d3f0600e9c7e1f41') in 0.005069 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/URDF/welding_robot_description/meshes/welding_robot/collision/eef_2.asset
+  artifactKey: Guid(336f66c302e970b089f458cf49bf657e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/URDF/welding_robot_description/meshes/welding_robot/collision/eef_2.asset using Guid(336f66c302e970b089f458cf49bf657e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8a97b5ee1ebc5ec85fb29c3c919bdb36') in 0.006619 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/URDF/welding_robot_description/meshes/welding_robot/collision/eef_8.asset
+  artifactKey: Guid(cfb6fca612a471032b9089744adf4b11) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/URDF/welding_robot_description/meshes/welding_robot/collision/eef_8.asset using Guid(cfb6fca612a471032b9089744adf4b11) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b2184889b4508201e84779ec26b9ac2f') in 0.003625 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.563698 seconds.
+  path: Assets/URDF/welding_robot_description/meshes/welding_robot/collision/link3_1.asset
+  artifactKey: Guid(cd996d2c7b8c996c88bb3a52fbe59553) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/URDF/welding_robot_description/meshes/welding_robot/collision/link3_1.asset using Guid(cd996d2c7b8c996c88bb3a52fbe59553) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b380e6075ab3b1468a92f1f2c6d30e56') in 0.002873 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/URDF/welding_robot_description/meshes/welding_robot/collision/link3_4.asset
+  artifactKey: Guid(316a0950055a484888bf62f4cc803812) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/URDF/welding_robot_description/meshes/welding_robot/collision/link3_4.asset using Guid(316a0950055a484888bf62f4cc803812) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9e1ea9b1617701dec6826a2b815ff5f5') in 0.002664 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/URDF/welding_robot_description/meshes/welding_robot/collision/link3_2.asset
+  artifactKey: Guid(7b58d6f8d779af42886d9244db1316d6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/URDF/welding_robot_description/meshes/welding_robot/collision/link3_2.asset using Guid(7b58d6f8d779af42886d9244db1316d6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3dacb23e75a38d60705003e178c92d48') in 0.002643 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/URDF/welding_robot_description/meshes/welding_robot/collision/link3_5.asset
+  artifactKey: Guid(b5ff98f39a4185496ac1cb3771e63f10) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/URDF/welding_robot_description/meshes/welding_robot/collision/link3_5.asset using Guid(b5ff98f39a4185496ac1cb3771e63f10) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2c23ddffc78b186776edd5623ef49888') in 0.003240 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/URDF/welding_robot_description/meshes/welding_robot/collision/link3_3.asset
+  artifactKey: Guid(371347ebaea213c1683b0852380051fd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/URDF/welding_robot_description/meshes/welding_robot/collision/link3_3.asset using Guid(371347ebaea213c1683b0852380051fd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ec8fbbc603a14b6dd9e9b2a6e4ee10d6') in 0.003079 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 247.623830 seconds.
+  path: Assets/URDF/welding_robot_description/meshes/welding_robot/eef.STL
+  artifactKey: Guid(a77d3435fbbd1f7639343fc73fe0419e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/URDF/welding_robot_description/meshes/welding_robot/eef.STL using Guid(a77d3435fbbd1f7639343fc73fe0419e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3ecf41dc8fbc32b3d9a61e6eeeb2ab1c') in 0.005300 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.038410 seconds.
+  path: Assets/URDF/welding_robot_description/meshes/welding_robot/link5.STL
+  artifactKey: Guid(4d6255a553ea33b95b69bb68c8f574c5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/URDF/welding_robot_description/meshes/welding_robot/link5.STL using Guid(4d6255a553ea33b95b69bb68c8f574c5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '25f9da7ec963903eca3ebf8e056c33c1') in 0.004029 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/URDF/welding_robot_description/urdf/welding_robot_macro.xacro
+  artifactKey: Guid(bda02e2bd4fa35a9096e2dde597908e5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/URDF/welding_robot_description/urdf/welding_robot_macro.xacro using Guid(bda02e2bd4fa35a9096e2dde597908e5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c4000d8da1eea3e7f3a3792e45ad18fd') in 0.003184 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/URDF/welding_robot_description/meshes/welding_robot/link3.STL
+  artifactKey: Guid(a8b4c773ad4d4dfcf981b152e7b0da76) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/URDF/welding_robot_description/meshes/welding_robot/link3.STL using Guid(a8b4c773ad4d4dfcf981b152e7b0da76) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3cdcc0311f5ba1c44f3e7fe53ac7010b') in 0.003710 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 2.120833 seconds.
+  path: Assets/URDF/Materials/rgba-0.792156862745098-0.819607843137255-0.933333333333333-1.mat
+  artifactKey: Guid(95df786f375409ceaa9f4e5fc150346d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/URDF/Materials/rgba-0.792156862745098-0.819607843137255-0.933333333333333-1.mat using Guid(95df786f375409ceaa9f4e5fc150346d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83889bb0a7610c735feeb27f852ab00b') in 0.332290 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 325.587271 seconds.
+  path: Assets/URDF/welding_robot_description/meshes/link2.STL
+  artifactKey: Guid(0cc0ee373df3927469db18c6a6cc40f9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/URDF/welding_robot_description/meshes/link2.STL using Guid(0cc0ee373df3927469db18c6a6cc40f9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1365e4e5145f758770e2f50c3d31441d') in 0.005619 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.031501 seconds.
+  path: Assets/URDF/welding_robot_description/meshes/link1.STL
+  artifactKey: Guid(dc79a6dc0aec68209a1488966aa33aae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/URDF/welding_robot_description/meshes/link1.STL using Guid(dc79a6dc0aec68209a1488966aa33aae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '039393009dbf6ba0f6db7f32f0ea3a78') in 0.002202 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/URDF/welding_robot_description/meshes/link5.STL
+  artifactKey: Guid(9901ed1e57fcb176b988407bc0959389) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/URDF/welding_robot_description/meshes/link5.STL using Guid(9901ed1e57fcb176b988407bc0959389) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8058060f2d5fbabace93ae3fc91ad33b') in 0.002108 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/URDF/welding_robot_description/meshes/eef.STL
+  artifactKey: Guid(5bb5e62f3ab7efc33b276f8d02ed95d4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/URDF/welding_robot_description/meshes/eef.STL using Guid(5bb5e62f3ab7efc33b276f8d02ed95d4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '11e594216c22ca2099420aba908f8c04') in 0.002441 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 15.325861 seconds.
+  path: Assets/URDF/welding_robot_description/meshes/base_link.prefab
+  artifactKey: Guid(76e7a2ceeff157bbeadfa7de0af3d4ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/URDF/welding_robot_description/meshes/base_link.prefab using Guid(76e7a2ceeff157bbeadfa7de0af3d4ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8460febc9daf2efd663453e156940f2c') in 0.033886 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/URDF/welding_robot_description/meshes/eef_7.asset
+  artifactKey: Guid(a737ff7b5b7ae1a629a65567f4e2f8fd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/URDF/welding_robot_description/meshes/eef_7.asset using Guid(a737ff7b5b7ae1a629a65567f4e2f8fd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c15dc0f427a7cbbd0e1c3b9cbd79ce8d') in 0.002606 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/URDF/welding_robot_description/meshes/link5_14.asset
+  artifactKey: Guid(88d82c1412c78c309be3764c9eb1bd46) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/URDF/welding_robot_description/meshes/link5_14.asset using Guid(88d82c1412c78c309be3764c9eb1bd46) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1a826f8a6b08ed9c287c25d039cbcdaf') in 0.002414 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/URDF/welding_robot_description/meshes/link3_5.asset
+  artifactKey: Guid(76ee8c5a6c49064e2ad41b52bbc88bd6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/URDF/welding_robot_description/meshes/link3_5.asset using Guid(76ee8c5a6c49064e2ad41b52bbc88bd6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7a07aecda23f2adade2572bf5f8583ef') in 0.002274 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/URDF/welding_robot_description/meshes/link4.prefab
+  artifactKey: Guid(97704ddb12f797067a087a7a233c16a2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/URDF/welding_robot_description/meshes/link4.prefab using Guid(97704ddb12f797067a087a7a233c16a2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '570ee5ca8a06218108f1b046201f3af2') in 0.006583 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/URDF/welding_robot_description/meshes/link5_12.asset
+  artifactKey: Guid(26e9e84fe9b4ad022bcc44a98b11161f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/URDF/welding_robot_description/meshes/link5_12.asset using Guid(26e9e84fe9b4ad022bcc44a98b11161f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'cf27b256a4c07012e7beaf4056fe9c62') in 0.002799 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/URDF/welding_robot_description/meshes/link5_2.asset
+  artifactKey: Guid(14d6fe7e75babd733ba2e824c12470ac) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/URDF/welding_robot_description/meshes/link5_2.asset using Guid(14d6fe7e75babd733ba2e824c12470ac) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b56378ae4d65f7b67a6e13652dcd1168') in 0.002481 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/URDF/welding_robot_description/meshes/link1_9.asset
+  artifactKey: Guid(c8e21552846524277a3dc65debf0c732) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/URDF/welding_robot_description/meshes/link1_9.asset using Guid(c8e21552846524277a3dc65debf0c732) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1fb170e17bec447eec856b8af8eaf26b') in 0.002501 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/URDF/welding_robot_description/meshes/link5_4.asset
+  artifactKey: Guid(02e70d779d679ec3fbffeaa571585aec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/URDF/welding_robot_description/meshes/link5_4.asset using Guid(02e70d779d679ec3fbffeaa571585aec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '766aca76a3b6f6afad7caeaf4da475d1') in 0.004914 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/URDF/welding_robot_description/meshes/link1_3.asset
+  artifactKey: Guid(93fddbdfb8ff1eb78ab7904703093a1c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/URDF/welding_robot_description/meshes/link1_3.asset using Guid(93fddbdfb8ff1eb78ab7904703093a1c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e765c5dfd9c48f7bfdbdd4b486826472') in 0.003593 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/URDF/welding_robot_description/meshes/link5_15.asset
+  artifactKey: Guid(e7a0137356c43c742b36193ff9250929) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/URDF/welding_robot_description/meshes/link5_15.asset using Guid(e7a0137356c43c742b36193ff9250929) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a0469cea17a035855f4e61cbccd4bcec') in 0.003597 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/URDF/welding_robot_description/meshes/link5_17.asset
+  artifactKey: Guid(6e77af4448c208d388c856877d3155bc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/URDF/welding_robot_description/meshes/link5_17.asset using Guid(6e77af4448c208d388c856877d3155bc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd47bc182f3fd90ef99669a7b9d22a4bc') in 0.003884 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/URDF/welding_robot_description/meshes/link5_18.asset
+  artifactKey: Guid(d699bc0a229200eae8963bbef9ca6e03) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/URDF/welding_robot_description/meshes/link5_18.asset using Guid(d699bc0a229200eae8963bbef9ca6e03) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e59ad465ae75f7c604612e812170ca4c') in 0.002682 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/URDF/welding_robot_description/meshes/link2.prefab
+  artifactKey: Guid(972a5c366259342a3bf3ffdbece4d41c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/URDF/welding_robot_description/meshes/link2.prefab using Guid(972a5c366259342a3bf3ffdbece4d41c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '442a0f8b069562f159ef70e97244012a') in 0.008372 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/URDF/welding_robot_description/meshes/link3_3.asset
+  artifactKey: Guid(63546461179bb23a5ba42edaae70b05b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/URDF/welding_robot_description/meshes/link3_3.asset using Guid(63546461179bb23a5ba42edaae70b05b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '15e84005852173262682bbcbff4ae333') in 0.002556 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/URDF/welding_robot_description/meshes/link1_1.asset
+  artifactKey: Guid(23f4e572552446ac88f3723623dc8f92) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/URDF/welding_robot_description/meshes/link1_1.asset using Guid(23f4e572552446ac88f3723623dc8f92) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '498d78d23244627a366773f2ca7cf897') in 0.002364 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/URDF/welding_robot_description/meshes/link1.prefab
+  artifactKey: Guid(87d2e391b808b600d879db0e117b392f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/URDF/welding_robot_description/meshes/link1.prefab using Guid(87d2e391b808b600d879db0e117b392f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4ff307605678c5e2bdf3b4e09960fd58') in 0.008927 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/URDF/welding_robot_description/meshes/base_link_2.asset
+  artifactKey: Guid(f16056ca4c9cc37699eea211ed812981) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/URDF/welding_robot_description/meshes/base_link_2.asset using Guid(f16056ca4c9cc37699eea211ed812981) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3d41c1fefcdbfd032c60398344ca5da8') in 0.002385 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/URDF/welding_robot_description/meshes/link1_10.asset
+  artifactKey: Guid(4dea613ea7f8ea0398675147377f2eec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/URDF/welding_robot_description/meshes/link1_10.asset using Guid(4dea613ea7f8ea0398675147377f2eec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0cca6f9d60bfcd25c9f092de90fbecac') in 0.002749 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/URDF/welding_robot_description/meshes/link5_9.asset
+  artifactKey: Guid(79be3cc23a6891113af83fc44203d9dc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/URDF/welding_robot_description/meshes/link5_9.asset using Guid(79be3cc23a6891113af83fc44203d9dc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '517c3ede2daf5fdf63fa4cc7ba2aabd4') in 0.002705 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/URDF/welding_robot_description/meshes/link3_0.asset
+  artifactKey: Guid(bf66812e0354b3178a9dfd1a83c5e42d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/URDF/welding_robot_description/meshes/link3_0.asset using Guid(bf66812e0354b3178a9dfd1a83c5e42d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'cee1e360fec954cc5ef65680844864b3') in 0.007679 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/URDF/welding_robot_description/meshes/link1_12.asset
+  artifactKey: Guid(12846ae5a9c4198a6bb2b1e0fd0ecd69) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/URDF/welding_robot_description/meshes/link1_12.asset using Guid(12846ae5a9c4198a6bb2b1e0fd0ecd69) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5cad772a34e5e9e1f930f87b4a753f49') in 0.002867 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/URDF/welding_robot_description/meshes/link1_6.asset
+  artifactKey: Guid(c958f863d9316eef2bed25f443985ba8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/URDF/welding_robot_description/meshes/link1_6.asset using Guid(c958f863d9316eef2bed25f443985ba8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '97bf610f7b75301fc54749b8611b6d23') in 0.002462 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/URDF/welding_robot_description/meshes/link5_5.asset
+  artifactKey: Guid(090e384b40d52aab797b76ac39f79370) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/URDF/welding_robot_description/meshes/link5_5.asset using Guid(090e384b40d52aab797b76ac39f79370) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '92af505ecf267dca73adf47864ae9635') in 0.002419 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/URDF/welding_robot_description/meshes/link5_6.asset
+  artifactKey: Guid(72a4376cdd2644f58bc77961d74e8a44) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/URDF/welding_robot_description/meshes/link5_6.asset using Guid(72a4376cdd2644f58bc77961d74e8a44) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '32881d8e997328be4f28f0abea8b9a28') in 0.003665 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/URDF/welding_robot_description/meshes/link4_1.asset
+  artifactKey: Guid(89478f0447300e228831bd276880d3a3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/URDF/welding_robot_description/meshes/link4_1.asset using Guid(89478f0447300e228831bd276880d3a3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e1962145d4d4bd4803dfe1d825883139') in 0.002345 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/URDF/welding_robot_description/meshes/eef_5.asset
+  artifactKey: Guid(fd081e487cada54049f4af484a1c0c26) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/URDF/welding_robot_description/meshes/eef_5.asset using Guid(fd081e487cada54049f4af484a1c0c26) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e232de38d4cee01a4931d8944492ca4d') in 0.002351 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/URDF/welding_robot_description/meshes/link1_4.asset
+  artifactKey: Guid(8e1c0298fc007bbfb968d409482615f1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/URDF/welding_robot_description/meshes/link1_4.asset using Guid(8e1c0298fc007bbfb968d409482615f1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '536947e2e40206ddae87807b20563a97') in 0.002239 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/URDF/welding_robot_description/meshes/link2_2.asset
+  artifactKey: Guid(01d814e4012c7d16797d6da7b28548b4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/URDF/welding_robot_description/meshes/link2_2.asset using Guid(01d814e4012c7d16797d6da7b28548b4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'dcab62e65e5c4df0c3ee44a51cdbd62f') in 0.002213 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/URDF/welding_robot_description/meshes/link5_3.asset
+  artifactKey: Guid(79f6c67002e14b8a988c6e3add6299d7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/URDF/welding_robot_description/meshes/link5_3.asset using Guid(79f6c67002e14b8a988c6e3add6299d7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f0687489a05cecb3ae5fa9bc0df21a04') in 0.002656 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/URDF/welding_robot_description/meshes/link3_2.asset
+  artifactKey: Guid(01538eb607c7409d38b916e1a6a9120f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/URDF/welding_robot_description/meshes/link3_2.asset using Guid(01538eb607c7409d38b916e1a6a9120f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e7369c785ba1628c4594ddcc6588aea7') in 0.002460 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/URDF/welding_robot_description/meshes/link5_16.asset
+  artifactKey: Guid(a965414c23a848d7eb32b6c6565288ad) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/URDF/welding_robot_description/meshes/link5_16.asset using Guid(a965414c23a848d7eb32b6c6565288ad) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c0afbb3bb887da1cb55988b0cd6a63f9') in 0.002273 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/URDF/welding_robot_description/meshes/link5_0.asset
+  artifactKey: Guid(46d8d50c39648eca5b3b9a0c6801351d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/URDF/welding_robot_description/meshes/link5_0.asset using Guid(46d8d50c39648eca5b3b9a0c6801351d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'cbd49f18542cb0ef6297addc57d22835') in 0.005191 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 125, details: Operation aborted.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Assertion failed on expression: 'm_PodArrays.empty()'
+Checking for leaked weakptr:
+  Found no leaked weakptrs.
+All object instances wasn't destroyed before shutting down
+Assertion failed on expression: 'm_MemoryFSRefCount == 0'
+Memory Statistics:
+[ALLOC_TEMP_TLS] TLS Allocator
+  StackAllocators : 
+    [ALLOC_TEMP_Loading.PreloadManager]
+      Peak usage frame count: [0-1.0 KB]: 1 frames
+      Initial Block Size 32.0 MB
+      Current Block Size 32.0 MB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_BakingJobs.worker 11]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_BakingJobs.worker 10]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_BakingJobs.worker 9]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_BakingJobs.worker 8]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_BakingJobs.worker 7]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_BakingJobs.worker 6]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_BakingJobs.worker 5]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_BakingJobs.worker 4]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_BakingJobs.worker 3]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_BakingJobs.worker 2]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_BakingJobs.worker 1]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_BakingJobs.worker 0]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_AssetDatabase.FileHasherHasher]
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 31 B
+      Overflow Count 0
+    [ALLOC_TEMP_AssetDatabase.FileHasherReader]
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 31 B
+      Overflow Count 0
+    [ALLOC_TEMP_AssetDatabase.FileHasherHasher]
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 31 B
+      Overflow Count 0
+    [ALLOC_TEMP_AssetDatabase.FileHasherReader]
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 31 B
+      Overflow Count 0
+    [ALLOC_TEMP_AssetDatabase.FileHasherHasher]
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 31 B
+      Overflow Count 0
+    [ALLOC_TEMP_AssetDatabase.FileHasherReader]
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 31 B
+      Overflow Count 0
+    [ALLOC_TEMP_AssetDatabase.FileHasherHasher]
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 31 B
+      Overflow Count 0
+    [ALLOC_TEMP_AssetDatabase.FileHasherReader]
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 31 B
+      Overflow Count 0
+    [ALLOC_TEMP_Loading.AsyncRead]
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_BatchDeleteObjects]
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.worker 15]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.worker 14]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.worker 13]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.worker 12]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.worker 11]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.worker 10]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.worker 9]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.worker 8]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.worker 7]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.worker 6]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.worker 5]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.worker 4]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.worker 3]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.worker 2]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.worker 1]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 7.0 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.worker 0]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.worker 10]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.worker 9]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.worker 8]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.worker 7]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.worker 6]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.worker 5]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.worker 4]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.worker 3]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.worker 2]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.worker 1]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 0.6 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Job.worker 0]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_MAIN]
+      Peak usage frame count: [1.0 MB-2.0 MB]: 44 frames, [2.0 MB-4.0 MB]: 4 frames, [4.0 MB-8.0 MB]: 2 frames, [8.0 MB-16.0 MB]: 1 frames
+      Initial Block Size 16.0 MB
+      Current Block Size 18.7 MB
+      Peak Allocated Bytes 15.3 MB
+      Overflow Count 0
+    [ALLOC_TEMP_CoreBusinessMetricsCache]
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_AssetDatabase.IOService]
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 32.6 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Profiler.Dispatcher]
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_AssetGarbageCollectorHelper] x 11
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+[ALLOC_MEMORYPROFILER]
+  Peak usage frame count: [256.0 KB-0.5 MB]: 50 frames, [0.5 MB-1.0 MB]: 1 frames
+  Requested Block Size 1.0 MB
+  Peak Block count 1
+  Peak Allocated memory 0.6 MB
+  Peak Large allocation bytes 0 B
+[ALLOC_DEFAULT] Dual Thread Allocator
+  Peak main deferred allocation count 19
+    [ALLOC_BUCKET]
+      Large Block size 32.0 MB
+      Used Block count 1
+      Peak Allocated bytes 7.3 MB
+    [ALLOC_DEFAULT_MAIN]
+      Peak usage frame count: [32.0 MB-64.0 MB]: 51 frames
+      Requested Block Size 16.0 MB
+      Peak Block count 4
+      Peak Allocated memory 49.9 MB
+      Peak Large allocation bytes 0 B
+    [ALLOC_DEFAULT_THREAD]
+      Peak usage frame count: [0.5 MB-1.0 MB]: 50 frames, [2.0 MB-4.0 MB]: 1 frames
+      Requested Block Size 16.0 MB
+      Peak Block count 1
+      Peak Allocated memory 3.0 MB
+      Peak Large allocation bytes 0 B
+[ALLOC_TEMP_JOB_1_FRAME]
+  Initial Block Size 2.0 MB
+  Used Block Count 0
+  Overflow Count (too large) 0
+  Overflow Count (full) 0
+[ALLOC_TEMP_JOB_2_FRAMES]
+  Initial Block Size 2.0 MB
+  Used Block Count 0
+  Overflow Count (too large) 0
+  Overflow Count (full) 0
+[ALLOC_TEMP_JOB_4_FRAMES (JobTemp)]
+  Initial Block Size 2.0 MB
+  Used Block Count 1
+  Overflow Count (too large) 0
+  Overflow Count (full) 0
+[ALLOC_TEMP_JOB_ASYNC (Background)]
+  Initial Block Size 1.0 MB
+  Used Block Count 1
+  Overflow Count (too large) 0
+  Overflow Count (full) 0
+[ALLOC_GFX] Dual Thread Allocator
+  Peak main deferred allocation count 0
+    [ALLOC_BUCKET]
+      Large Block size 32.0 MB
+      Used Block count 1
+      Peak Allocated bytes 7.3 MB
+    [ALLOC_GFX_MAIN]
+      Peak usage frame count: [64.0 KB-128.0 KB]: 13 frames, [128.0 KB-256.0 KB]: 31 frames, [256.0 KB-0.5 MB]: 1 frames, [0.5 MB-1.0 MB]: 4 frames, [1.0 MB-2.0 MB]: 2 frames
+      Requested Block Size 16.0 MB
+      Peak Block count 1
+      Peak Allocated memory 1.2 MB
+      Peak Large allocation bytes 0 B
+    [ALLOC_GFX_THREAD]
+      Peak usage frame count: [0-1.0 KB]: 51 frames
+      Requested Block Size 16.0 MB
+      Peak Block count 0
+      Peak Allocated memory 0 B
+      Peak Large allocation bytes 0 B
+[ALLOC_CACHEOBJECTS] Dual Thread Allocator
+  Peak main deferred allocation count 17140
+    [ALLOC_BUCKET]
+      Large Block size 32.0 MB
+      Used Block count 1
+      Peak Allocated bytes 7.3 MB
+    [ALLOC_CACHEOBJECTS_MAIN]
+      Peak usage frame count: [2.0 MB-4.0 MB]: 12 frames, [4.0 MB-8.0 MB]: 38 frames, [32.0 MB-64.0 MB]: 1 frames
+      Requested Block Size 4.0 MB
+      Peak Block count 12
+      Peak Allocated memory 40.7 MB
+      Peak Large allocation bytes 0 B
+    [ALLOC_CACHEOBJECTS_THREAD]
+      Peak usage frame count: [0-1.0 KB]: 51 frames
+      Requested Block Size 4.0 MB
+      Peak Block count 0
+      Peak Allocated memory 0 B
+      Peak Large allocation bytes 0 B
+[ALLOC_TYPETREE] Dual Thread Allocator
+  Peak main deferred allocation count 27209
+    [ALLOC_BUCKET]
+      Large Block size 32.0 MB
+      Used Block count 1
+      Peak Allocated bytes 7.3 MB
+    [ALLOC_TYPETREE_MAIN]
+      Peak usage frame count: [128.0 KB-256.0 KB]: 11 frames, [256.0 KB-0.5 MB]: 37 frames, [1.0 MB-2.0 MB]: 2 frames, [16.0 MB-32.0 MB]: 1 frames
+      Requested Block Size 2.0 MB
+      Peak Block count 10
+      Peak Allocated memory 16.7 MB
+      Peak Large allocation bytes 0 B
+    [ALLOC_TYPETREE_THREAD]
+      Peak usage frame count: [0-1.0 KB]: 51 frames
+      Requested Block Size 2.0 MB
+      Peak Block count 0
+      Peak Allocated memory 0 B
+      Peak Large allocation bytes 0 B
+[ALLOC_PROFILER]
+  Peak usage frame count: [32.0 KB-64.0 KB]: 50 frames, [64.0 KB-128.0 KB]: 1 frames
+  Requested Block Size 16.0 MB
+  Peak Block count 1
+  Peak Allocated memory 84.5 KB
+  Peak Large allocation bytes 0 B
+    [ALLOC_PROFILER_BUCKET]
+      Large Block size 32.0 MB
+      Used Block count 1
+      Peak Allocated bytes 2.6 KB
+[ALLOC_PROFILER_EDITOR]
+  Peak usage frame count: [0-1.0 KB]: 51 frames
+  Requested Block Size 1.0 MB
+  Peak Block count 0
+  Peak Allocated memory 0 B
+  Peak Large allocation bytes 0 B
+    [ALLOC_PROFILER_BUCKET]
+      Large Block size 32.0 MB
+      Used Block count 1
+      Peak Allocated bytes 2.6 KB
+##utp:{"type":"MemoryLeaks","version":2,"phase":"Immediate","time":1686209955988,"processId":89836,"allocatedMemory":50336318,"memoryLabels":[{"Default":47652},{"Permanent":18086},{"Thread":1086336},{"Manager":3366773},{"VertexData":91004},{"Geometry":408},{"Particles":17856},{"VFX":44},{"Texture":118257},{"Shader":156915},{"Material":7304},{"GfxDevice":229232},{"Animation":15046},{"Audio":4932},{"Font":1792},{"FontEngine":336},{"Physics":271149},{"Physics2D":153264},{"Serialization":4821418},{"Input":59520},{"JobScheduler":12818680},{"GarbageCollector":1049152},{"Mono":92},{"ScriptingNativeRuntime":7924736},{"BaseObject":1824599},{"Resource":1260},{"Renderer":8664},{"Transform":48},{"File":29193},{"Network":3356},{"WebCam":40},{"Culling":48},{"Terrain":1073},{"TerrainPhysics":8},{"Wind":24},{"STL":145152},{"String":773126},{"DynamicArray":999018},{"HashMap":1304659},{"Utility":2917118},{"PoolAlloc":1488},{"AI":59656},{"TypeTree":4533},{"ScriptManager":1518832},{"MonoScriptCache":569712},{"RuntimeInitializeOnLoadManager":72},{"AncestorCache":32},{"SpriteAtlas":112},{"GI":16312},{"Director":7928},{"WebRequest":720},{"VR":45961},{"SceneManager":640},{"Video":256},{"LazyScriptCache":32},{"ManagedAttributeManager":1},{"TextureStreaming":1416},{"NativeArray":839},{"ScreenCapture":8},{"Camera":25},{"Secure":1},{"CrashReporter":1040},{"SerializationCache":1576},{"APIUpdating":11856},{"Subsystems":384},{"VirtualTexturing":59488},{"StaticSafetyDebugInfo":327680},{"EditorGui":4728292},{"EditorUtility":25906},{"VersionControl":4},{"Undo":736},{"AssetDatabase":2316812},{"AssetImporter":284083},{"RestService":2880},{"EditorGi":24528},{"ProgressiveLightmapper":11144},{"License":3144},{"UnityConnect":25432},{"Collab":25},{"Upm":1232},{"DrivenProperties":80},{"LocalIPC":120},{"ProfilerEditor":10991},{"CoreBusinessMetrics":2875},{"AssetReference":32},{"IPCStream":32}]}

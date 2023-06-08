@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="welding_robot">
+    <xacro:property name="joint1_upper_limit" value="${radians(180)}" />
+    <xacro:property name="joint1_lower_limit" value="${radians(-180)}" />
+
+    <!-- Need to do calculation here, since the datasheet pose is L-shape and mine is extended
+    straight in x direction -->
+    <xacro:property name="joint2_upper_limit" value="${radians(65)}" />
+    <xacro:property name="joint2_lower_limit" value="${radians(-185)}" />
+
+    <xacro:property name="joint3_upper_limit" value="${radians(180)}" />
+    <xacro:property name="joint3_lower_limit" value="${radians(-75)}" />
+
+    <xacro:property name="joint4_upper_limit" value="${radians(175)}" />
+    <xacro:property name="joint4_lower_limit" value="${radians(-175)}" />
+
+    <xacro:property name="joint5_upper_limit" value="${radians(120)}" />
+    <xacro:property name="joint5_lower_limit" value="${radians(-120)}" />
+
+    <xacro:property name="joint6_upper_limit" value="${radians(400)}" />
+    <xacro:property name="joint6_lower_limit" value="${radians(-400)}" />
+</robot>

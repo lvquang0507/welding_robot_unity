@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This URDF was automatically created by SolidWorks to URDF Exporter! Originally created by
+Stephen Brawner (brawner@gmail.com) 
+     Commit Version: 1.6.0-4-g7f85cfe  Build Version: 1.6.7995.38578
+     For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
+<robot
+    name="welding_robot">
+    <link name="world"></link>
+    <link
+        name="base_link">
+        <inertial>
+            <origin
+                xyz="-0.0929937292504419 0.000399767609570289 0.0959021779308826"
+                rpy="0 0 0" />
+            <mass
+                value="31.9091200007545" />
+            <inertia
+                ixx="0.421447222495448"
+                ixy="0.0037819462335109"
+                ixz="0.0229893954678047"
+                iyy="0.869675903019841"
+                iyz="0.000278861587942182"
+                izz="1.09695200484203" />
+        </inertial>
+        <visual>
+            <origin
+                xyz="0 0 0"
+                rpy="0 0 0" />
+            <geometry>
+                <mesh
+                    filename="package://welding_robot_description/meshes/base_link.STL" />
+            </geometry>
+            <material
+                name="">
+                <color
+                    rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+            </material>
+        </visual>
+        <collision>
+            <origin
+                xyz="0 0 0"
+                rpy="0 0 0" />
+            <geometry>
+                <mesh
+                    filename="package://welding_robot_description/meshes/base_link.STL" />
+            </geometry>
+        </collision>
+    </link>
+    <joint name="world_to_base" type="fixed">
+        <parent link="world" />
+        <child link="base_link" />
+    </joint>
+    <link
+        name="link1">
+        <inertial>
+            <origin
+                xyz="0.0430085938702163 0.00696417924685074 0.159697721120496"
+                rpy="0 0 0" />
+            <mass
+                value="23.921353395102" />
+            <inertia
+                ixx="0.395236282597606"
+                ixy="-0.00940048082513979"
+                ixz="-0.041470347217743"
+                iyy="0.604734124936167"
+                iyz="-0.00587838591642869"
+                izz="0.572670389108296" />
+        </inertial>
+        <visual>
+            <origin
+                xyz="0 0 0"
+                rpy="0 0 0" />
+            <geometry>
+                <mesh
+                    filename="package://welding_robot_description/meshes/link1.STL" />
+            </geometry>
+            <material
+                name="">
+                <color
+                    rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+            </material>
+        </visual>
+        <collision>
+            <origin
+                xyz="0 0 0"
+                rpy="0 0 0" />
+            <geometry>
+                <mesh
+                    filename="package://welding_robot_description/meshes/link1.STL" />
+            </geometry>
+        </collision>
+    </link>
+    <joint
+        name="joint1"
+        type="revolute">
+        <origin
+            xyz="0 0 0.23"
+            rpy="0 0 0" />
+        <parent
+            link="base_link" />
+        <child
+            link="link1" />
+        <axis
+            xyz="0 0 1" />
+        <limit
+            lower="${joint1_lower_limit}"
+            upper="${joint1_upper_limit}"
+            effort="0"
+            velocity="0" />
+    </joint>
+    <link
+        name="link2">
+        <inertial>
+            <origin
+                xyz="0.413903893302138 6.01572906893666E-05 -0.032046741090647"
+                rpy="0 0 0" />
+            <mass
+                value="15.7551993052296" />
+            <inertia
+                ixx="0.0483159174035791"
+                ixy="0.000255145389541365"
+                ixz="0.00589226848669825"
+                iyy="1.10406779987279"
+                iyz="5.18849425289219E-07"
+                izz="1.12343882886802" />
+        </inertial>
+        <visual>
+            <origin
+                xyz="0 0 0"
+                rpy="0 0 0" />
+            <geometry>
+                <mesh
+                    filename="package://welding_robot_description/meshes/link2.STL" />
+            </geometry>
+            <material
+                name="">
+                <color
+                    rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+            </material>
+        </visual>
+        <collision>
+            <origin
+                xyz="0 0 0"
+                rpy="0 0 0" />
+            <geometry>
+                <mesh
+                    filename="package://welding_robot_description/meshes/link2.STL" />
+            </geometry>
+        </collision>
+    </link>
+    <joint
+        name="joint2"
+        type="revolute">
+        <origin
+            xyz="0.15 -0.1404 0.215"
+            rpy="-1.5708 0 0" />
+        <parent
+            link="link1" />
+        <child
+            link="link2" />
+        <axis
+            xyz="0 0 1" />
+        <limit
+            lower="${joint2_lower_limit}"
+            upper="${joint2_upper_limit}"
+            effort="0"
+            velocity="0" />
+    </joint>
+    <link
+        name="link3">
+        <inertial>
+            <origin
+                xyz="0.057084345693889 -0.0544677374605202 0.179683311866053"
+                rpy="0 0 0" />
+            <mass
+                value="20.2703440803898" />
+            <inertia
+                ixx="0.272489784342283"
+                ixy="0.0614344615798052"
+                ixz="0.00781250522080438"
+                iyy="0.273164414136875"
+                iyz="0.00718708687882421"
+                izz="0.293444701233596" />
+        </inertial>
+        <visual>
+            <origin
+                xyz="0 0 0"
+                rpy="0 0 0" />
+            <geometry>
+                <mesh
+                    filename="package://welding_robot_description/meshes/link3.STL" />
+            </geometry>
+            <material
+                name="">
+                <color
+                    rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+            </material>
+        </visual>
+        <collision>
+            <origin
+                xyz="0 0 0"
+                rpy="0 0 0" />
+            <geometry>
+                <mesh
+                    filename="package://welding_robot_description/meshes/link3.STL" />
+            </geometry>
+        </collision>
+    </link>
+    <joint
+        name="joint3"
+        type="revolute">
+        <origin
+            xyz="0.9 0 -0.0096"
+            rpy="0 0 0" />
+        <parent
+            link="link2" />
+        <child
+            link="link3" />
+        <axis
+            xyz="0 0 1" />
+        <limit
+            lower="${joint3_lower_limit}"
+            upper="${joint3_upper_limit}"
+            effort="0"
+            velocity="0" />
+    </joint>
+    <link
+        name="link4">
+        <inertial>
+            <origin
+                xyz="-0.00187110793536971 -0.0873002349060387 0.31439194690357"
+                rpy="0 0 0" />
+            <mass
+                value="10.5450027654616" />
+            <inertia
+                ixx="0.535192042412382"
+                ixy="-0.000326158571932255"
+                ixz="-0.00186684954565243"
+                iyy="0.522699640515615"
+                iyz="0.0528815415766676"
+                izz="0.039628953125396" />
+        </inertial>
+        <visual>
+            <origin
+                xyz="0 0 0"
+                rpy="0 0 0" />
+            <geometry>
+                <mesh
+                    filename="package://welding_robot_description/meshes/link4.STL" />
+            </geometry>
+            <material
+                name="">
+                <color
+                    rgba="0.996078431372549 0 0 1" />
+            </material>
+        </visual>
+        <collision>
+            <origin
+                xyz="0 0 0"
+                rpy="0 0 0" />
+            <geometry>
+                <mesh
+                    filename="package://welding_robot_description/meshes/link4.STL" />
+            </geometry>
+        </collision>
+    </link>
+    <joint
+        name="joint4"
+        type="revolute">
+        <origin
+            xyz="0.238 -0.15 0.15"
+            rpy="-1.5708 0 -1.5708" />
+        <parent
+            link="link3" />
+        <child
+            link="link4" />
+        <axis
+            xyz="0 0 1" />
+        <limit
+            lower="${joint4_lower_limit}"
+            upper="${joint4_upper_limit}"
+            effort="0"
+            velocity="0" />
+    </joint>
+    <link
+        name="link5">
+        <inertial>
+            <origin
+                xyz="0.092716433094624 -0.000702054822862452 -0.0523232778676363"
+                rpy="0 0 0" />
+            <mass
+                value="1.0432151948745" />
+            <inertia
+                ixx="0.00207881906865029"
+                ixy="-4.33682930942942E-05"
+                ixz="0.00144478504813504"
+                iyy="0.00603242280484296"
+                iyz="6.40267757266068E-06"
+                izz="0.0056992330657813" />
+        </inertial>
+        <visual>
+            <origin
+                xyz="0 0 0"
+                rpy="0 0 0" />
+            <geometry>
+                <mesh
+                    filename="package://welding_robot_description/meshes/link5.STL" />
+            </geometry>
+            <material
+                name="">
+                <color
+                    rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+            </material>
+        </visual>
+        <collision>
+            <origin
+                xyz="0 0 0"
+                rpy="0 0 0" />
+            <geometry>
+                <mesh
+                    filename="package://welding_robot_description/meshes/link5.STL" />
+            </geometry>
+        </collision>
+    </link>
+    <joint
+        name="joint5"
+        type="revolute">
+        <origin
+            xyz="0 -0.079997 0.69999"
+            rpy="1.5708 -1.5708 0" />
+        <parent
+            link="link4" />
+        <child
+            link="link5" />
+        <axis
+            xyz="0 0 1" />
+        <limit
+            lower="${joint5_lower_limit}"
+            upper="${joint5_upper_limit}"
+            effort="0"
+            velocity="0" />
+    </joint>
+    <link
+        name="eef">
+        <inertial>
+            <origin
+                xyz="-0.00020055909938177 -0.000418068522453875 -0.00792381512597196"
+                rpy="0 0 0" />
+            <mass
+                value="0.0766980852773654" />
+            <inertia
+                ixx="6.51413284307492E-05"
+                ixy="2.55706386709703E-07"
+                ixz="6.05040605765171E-09"
+                iyy="6.57472395509658E-05"
+                iyz="4.55172837887951E-08"
+                izz="0.000127107365112355" />
+        </inertial>
+        <visual>
+            <origin
+                xyz="0 0 0"
+                rpy="0 0 0" />
+            <geometry>
+                <mesh
+                    filename="package://welding_robot_description/meshes/eef.STL" />
+            </geometry>
+            <material
+                name="">
+                <color
+                    rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+            </material>
+        </visual>
+        <collision>
+            <origin
+                xyz="0 0 0"
+                rpy="0 0 0" />
+            <geometry>
+                <mesh
+                    filename="package://welding_robot_description/meshes/eef.STL" />
+            </geometry>
+        </collision>
+    </link>
+    <joint
+        name="joint6"
+        type="revolute">
+        <origin
+            xyz="0.19901 0 -0.08"
+            rpy="-1.5708 0 -1.5708" />
+        <parent
+            link="link5" />
+        <child
+            link="eef" />
+        <axis
+            xyz="0 0 1" />
+        <limit
+            lower="${joint6_lower_limit}"
+            upper="${joint6_upper_limit}"
+            effort="0"
+            velocity="0" />
+    </joint>
+</robot>
